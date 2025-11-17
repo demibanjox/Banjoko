@@ -1,0 +1,144 @@
+ /*
+    File: style.css
+    Name: Demi Banjoko
+    Date Created: 09-10-2025
+    Date Last Edited: 09-26-2025
+    Version: 1.0
+    Purpose: MIS 3371 Homework 1 CSS Patient Form 
+*/
+
+header 
+{
+    width: 100%;
+    background-color: #003300;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF0F5;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /* page is height of the viewport */
+}
+
+form 
+{
+    flex-grow: 1;
+}
+
+h1, h2 
+{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    color: white; 
+}
+
+h3 
+{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    color: black; 
+}
+
+main 
+{
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image
+{
+    text-align: left;
+}
+
+td1 
+{
+    text-align: center;
+    vertical-align: middle; 
+    font-family: "Optima", "Trebuchet MS", Arial, sans-serif;
+    font-weight: normal;
+}
+
+th 
+{
+    text-align: center;
+    font-family: "Optima", "Trebuchet MS", Arial, sans-serif;
+}
+
+footer 
+{
+    width: 100%;
+    background-color: #FFF0F5;
+    height: 2.0rem;
+    text-align: center;   
+}
+
+#footer 
+{
+    font-family: "optima", sans-serif or any other font;
+    font-weight: normal;
+    text-align: center;
+}
+
+label 
+{
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+input 
+{
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea 
+{
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#today 
+{
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+    color: white;
+}
+
+p 
+{
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+a 
+{
+  color: blue /* normal link */
+}
+
+a:visited 
+{
+  color: blueviolet; /* visited link */
+}
+
+a:hover 
+{
+  color: red; /* hover effect */
+}
+
+
+
